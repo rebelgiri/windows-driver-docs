@@ -6,7 +6,7 @@ WDK 10 includes PkgGen, a tool that generates package files. You run PkgGen in 
 
 **Using PkgGen to generate a package file**
 
-1.  Right-click the driver project and choose **Add-&gt;New Item**. Next, under **Visual C++-&gt;Windows Driver**, choose **Package Manifest**. Click **Add**.
+1.  Right-click the driver project and choose **Add-&gt;New Item**. Next, under **Visual C++-&gt;** choose **Package Manifest**. Click **Add**.
 2.  Visual Studio adds a file called Package.pkg.xml to your driver project. You can right-click the file and choose properties to verify that the item type is **PkgGen**. (On this same property page, you can set **Excluded from Build** to **Yes** if you decide later that you want to build this driver project and not generate a package file.) Click **OK**.
 3.  Right-click the driver project and choose **Properties**. Under Configuration Properties, open the PackageGen node and change Version to any value you like.
 4.  Save your work and restart Visual Studio as administrator.
